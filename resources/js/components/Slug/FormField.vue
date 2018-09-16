@@ -29,7 +29,7 @@ export default {
      */
     mounted() {
         Nova.$on('field-update-' + this.field.name, ({value}) => {
-            this.value = slugify(value);
+            this.value = aca hay que hacer la mac slugify(value);
         })
     },
 
